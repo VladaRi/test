@@ -1,0 +1,14 @@
+.bg-1 {
+  background: #eaf4f9;
+  background: -moz-linear-gradient(top, #eaf4f9 0%, #eaf4f9 10%, #f5f9fc 30%, #fdfeff 62%, #fdfeff 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #eaf4f9), color-stop(10%, #eaf4f9), color-stop(30%, #f5f9fc), color-stop(62%, #fdfeff), color-stop(100%, #fdfeff));
+  background: -webkit-linear-gradient(top, #eaf4f9 0%, #eaf4f9 10%, #f5f9fc 30%, #fdfeff 62%, #fdfeff 100%);
+  background: -o-linear-gradient(top, #eaf4f9 0%, #eaf4f9 10%, #f5f9fc 30%, #fdfeff 62%, #fdfeff 100%);
+  background: -ms-linear-gradient(top, #eaf4f9 0%, #eaf4f9 10%, #f5f9fc 30%, #fdfeff 62%, #fdfeff 100%);
+  background: linear-gradient(to bottom, #eaf4f9 0%, #eaf4f9 10%, #f5f9fc 30%, #fdfeff 62%, #fdfeff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf4f9', endColorstr='#fdfeff', GradientType=0);
+}
+.w-center {
+  width: 100%;
+  margin: 0px auto;
+}

@@ -1,0 +1,137 @@
+.main-content {
+	position: relative;
+
+	&__big-side {
+		display: inline-block;
+		max-width: 823px; 
+
+		@media screen and (max-width: 1040px) {
+			padding-left: 10px;
+		}
+
+		@media screen and (max-width: 1023px) {
+			max-width: 100%;
+			width: 79%;
+		}
+
+		@media screen and (max-width: 876px) {
+			width: 72%; 
+		}
+
+		@media screen and (max-width: 670px) {
+			width: 100%;
+		}
+	}
+
+	&__right-side {
+		display: inline-block;
+		vertical-align: top;
+		width: 200px;
+
+		@media screen and (max-width: 1023px) {
+			max-width: 100%;
+			width: 20%;
+		}
+
+		@media screen and (max-width: 876px) {
+			width: 27.9%; 
+		}
+
+		@media screen and (max-width: 670px) {
+			width: 100%;
+		}
+	}
+}
+
+.cont-blc { 
+	padding-right: 73px;
+	text-align: center;
+	margin-top: 47px;
+
+	&:before {
+		font-size: 47px;
+		color: #A5A5A5;
+	}
+
+	&__title {
+		padding-top: 9px;
+		font-size: 29.98px; 
+		font-weight: 300;
+		word-spacing: 2.5px;
+		text-align: center;
+		color: #151515;
+	}
+
+	&__descr {
+		padding-top: 12px;
+		font-size: 16px;
+		text-align: left;
+	}
+
+	@media screen and (max-width: 670px) {
+		padding-right: 0;
+	}
+} 
+
+.cont-blc-1 {
+	&:before {
+		.icomoon('\e900');
+	}
+}
+
+.cont-blc-2 {
+
+	&:before {
+		.icomoon('\e903');
+	}
+}
+
+.cont-blc-3 {
+
+	&:before {
+		.icomoon('\e902');
+	}
+}
+
+.cont-blc-4 {
+	&:before {
+		.icomoon('\e901');
+	}
+}
+
+.aside-blc {
+	margin-top: 146px;
+	font-size: 14px;
+
+	@media screen and (max-width: 670px) {
+		margin-top: 16px;
+	}
+}
+
+.fixed {
+ position: fixed;
+ top: 40px;
+}
+
+#floating {
+	padding: 16px;
+	font-size: 14px;
+	background-color: #99A4B9;
+	width: 200px;
+
+	@media screen and (max-width: 1023px) {
+		width: 100%;
+	}
+}
+
+#floating.fixed  {
+	@media screen and (max-width: 1023px) {
+		width: 20%;
+	}
+
+	@media screen and (max-width: 876px) {
+		width: 27.9%;
+	}
+}
+
+
